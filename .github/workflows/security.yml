@@ -37,11 +37,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate package-lock.json
+        working-directory: app
+        run: npm install --package-lock-only
+
       - name: Prepare reports directory
         run: mkdir -p reports
 
       - name: Run OWASP Dependency-Check
-        # Falla el build si encuentra vulnerabilidades con CVSS >= 7.0 (High o Critical)
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: |

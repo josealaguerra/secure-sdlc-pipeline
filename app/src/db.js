@@ -13,5 +13,5 @@ function getUserByName(rawQuery, callback) {
   const fakeRows = [{ id: 1, name: 'demo', query_executed: rawQuery }];
   process.nextTick(() => callback(null, fakeRows));
 }
-
+// nuevo
 module.exports = { getUserByName };

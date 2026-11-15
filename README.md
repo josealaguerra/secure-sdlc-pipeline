@@ -118,3 +118,5 @@ reference projects.
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
+
+# Me

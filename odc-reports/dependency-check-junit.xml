@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites failures="0" name="dependency-check" tests="3">
+        <testsuite failures="0" errors="0" time="0" id="0" name="/src/src/db.js" package="db.js" skipped="0" tests="1" timestamp="2026-11-15T04:05:32.064543292">
+            <testcase classname="dependency-check" name="db.js"/>
+    </testsuite>
+        <testsuite failures="0" errors="0" time="0" id="1" name="/src/package.json" package="package.json" skipped="0" tests="1" timestamp="2026-11-15T04:05:32.064543292">
+            <testcase classname="dependency-check" name="package.json"/>
+    </testsuite>
+        <testsuite failures="0" errors="0" time="0" id="2" name="/src/src/server.js" package="server.js" skipped="0" tests="1" timestamp="2026-11-15T04:05:32.064543292">
+            <testcase classname="dependency-check" name="server.js"/>
+    </testsuite>
+</testsuites>

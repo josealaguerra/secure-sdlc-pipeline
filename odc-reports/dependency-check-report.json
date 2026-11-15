@@ -1,0 +1,76 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "13.0.0",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-11-15T03:32:15Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-11-15T03:16:52Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "secure-sdlc-demo",
+        "reportDate": "2026-11-15T04:05:32.064543292Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": false,
+            "fileName": "db.js",
+            "filePath": "\/src\/src\/db.js"
+,"md5": "8e15429bab7f3db8d67923e578e19e4d",
+            "sha1": "57f4e0cfdd465b3e1621b63e8b21add2ae5f52dc",
+            "sha256": "9a50c16aa43607e6f8516056b5cfc0b283a51817d12a5ca8ec623e936c1b66e2"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "package.json",
+            "filePath": "\/src\/package.json"
+,"md5": "ce8e67e76ce2799c87fe7876575ab3b7",
+            "sha1": "3084047f23fb44b54d9fa75420c238d9c7d4a28b",
+            "sha256": "9de3069c7db6090452f5771b6894bc4f9a20c04452706434194ac4182fd57e60"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "server.js",
+            "filePath": "\/src\/src\/server.js"
+,"md5": "3f6e3f152acd4d3fca80a76cdf483cef",
+            "sha1": "fb630360552fa430ab92c19aa534d8cd5726b9b6",
+            "sha256": "fd8dafa51fa97aebb3aa8c26f418e3426ef82748e3e492d859dfd53e5c52bd09"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        }    ]
+}

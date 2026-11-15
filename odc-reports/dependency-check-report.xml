@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://jeremylong.github.io/DependencyCheck/dependency-check.4.1.xsd"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-check.4.1.xsd
+                              https://dependency-check.github.io/DependencyCheck/dependency-check.4.1.xsd">
+    <scanInfo>
+        <engineVersion>13.0.0</engineVersion>
+        <dataSource>
+            <name>NVD API Last Checked</name>
+            <timestamp>2026-11-15T03:32:15Z</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD API Last Modified</name>
+            <timestamp>2026-11-15T03:16:52Z</timestamp>
+        </dataSource>
+    </scanInfo>
+    <projectInfo>
+        <name>secure-sdlc-demo</name>
+        <reportDate>2026-11-15T04:05:32.064543292Z</reportDate>
+        <credits>This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov, Github Advisory Database (via NPM Audit API): https://github.com/advisories/, and the RetireJS community.</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency isVirtual="false">
+            <fileName>db.js</fileName>
+            <filePath>/src/src/db.js</filePath>
+            <md5>8e15429bab7f3db8d67923e578e19e4d</md5>
+            <sha1>57f4e0cfdd465b3e1621b63e8b21add2ae5f52dc</sha1>
+            <sha256>9a50c16aa43607e6f8516056b5cfc0b283a51817d12a5ca8ec623e936c1b66e2</sha256>
+            <evidenceCollected>
+            </evidenceCollected>
+        </dependency>
+        <dependency isVirtual="false">
+            <fileName>package.json</fileName>
+            <filePath>/src/package.json</filePath>
+            <md5>ce8e67e76ce2799c87fe7876575ab3b7</md5>
+            <sha1>3084047f23fb44b54d9fa75420c238d9c7d4a28b</sha1>
+            <sha256>9de3069c7db6090452f5771b6894bc4f9a20c04452706434194ac4182fd57e60</sha256>
+            <evidenceCollected>
+            </evidenceCollected>
+        </dependency>
+        <dependency isVirtual="false">
+            <fileName>server.js</fileName>
+            <filePath>/src/src/server.js</filePath>
+            <md5>3f6e3f152acd4d3fca80a76cdf483cef</md5>
+            <sha1>fb630360552fa430ab92c19aa534d8cd5726b9b6</sha1>
+            <sha256>fd8dafa51fa97aebb3aa8c26f418e3426ef82748e3e492d859dfd53e5c52bd09</sha256>
+            <evidenceCollected>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>
